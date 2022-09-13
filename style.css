@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+/* NavBar Start */
+.header {
+  position: sticky;
+  top: 0px;
+}
+nav {
+  height: 45px;
+  background-color: black;
+}
+.navItem {
+  display: flex;
+  list-style: none;
+}
+.navLink {
+  margin: 13.5px 27px;
+}
+.navSearch {
+  position: absolute;
+  right: 0px;
+
+  color: white;
+  font-size: 20px;
+  height: 45px;
+  width: 67px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navSearch:hover {
+  background-color: red;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+}
+nav ul a:hover {
+  background-color: rgb(194, 199, 203);
+  color: black;
+}
+/* NavBar End */
+/* Slider Section Start */
+.sliderDiv {
+  text-align: center;
+  color: aliceblue;
+}
+.sliderImage {
+  width: 100%;
+}
+.sliderText {
+  position: relative;
+  top: -115px;
+  line-height: 2;
+}
+/* Slider Section End */
+/* The Band Section start */
+.main {
+  text-align: center;
+  display: grid;
+  justify-content: center;
+}
+.band {
+  width: 60%;
+  margin: 0 auto;
+}
+.bandCaption {
+  font-style: italic;
+  margin: 20px 0px;
+  color: rgb(165 157 157);
+}
+.bandPara {
+  text-align: justify;
+  line-height: 25px;
+}
+.artist {
+  width: 60%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 50px auto 90px auto;
+}
+.bmemberImage {
+  width: 60%;
+  margin: 15px auto;
+  border-radius: 4px;
+}
+.artDiv p {
+  margin: 15px auto;
+}
+.tour {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+.tourHeadingDiv {
+  text-align: center;
+  color: white;
+}
+.tourHeading {
+  padding: 85px 0px 10px 0px;
+}
+.ticket {
+  background-color: white;
+  width: 60%;
+  margin: 2px auto;
+  color: #a99f9f;
+}
+.ticketMonth {
+  padding: 1px;
+}
+.monthName {
+  padding: 10px 30px;
+}
+.ticketMonth span {
+  margin-left: 25px;
+  background-color: red;
+  padding: 4px 5px;
+  color: white;
+}
+.badgeDiv {
+  display: flex;
+  justify-content: space-between;
+}
+#badge {
+  background-color: black;
+  color: white;
+  margin-right: 35px;
+  padding: 3px 8px;
+  border-radius: 62px;
+  position: relative;
+  top: 8px;
+}
+.countries {
+  width: 60%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 25px auto;
+}
+.countriesImages {
+  width: 260px;
+}
+.tickDisc {
+  background-color: white;
+  margin: -4px 10px 100px auto;
+  padding: 20px 15px;
+}
+.tickDate {
+  margin: 25px auto;
+  color: rgb(165 157 157);
+}
+.tickBtn {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 30px 0px 0px 0px;
+}
+.contect {
+  background-color: white;
+}
+.contPara {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.mainForm {
+  border: 2px solid red;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.icon {
+  border: 2px solid red;
+}
+.form {
+  border: 2px solid red;
+}
